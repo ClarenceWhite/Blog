@@ -1,0 +1,22 @@
+version: '3'
+services:
+  user-service:
+    # image: clarence98/user-service-amd64
+    build: ./backend/userservice
+    ports:
+      - "9001:9001"
+  draft-service:
+    # image: clarence98/draft-service-amd64
+    build: ./backend/draftservice
+    ports:
+      - "9002:9002"
+  published-service:
+    # image: clarence98/published-service-amd64
+    build: ./backend/publishedservice
+    ports:
+      - "9003:9003"
+  frontend:
+    # image: clarence98/frontend-amd64
+    build: frontend
+    ports:
+      - "80:80"

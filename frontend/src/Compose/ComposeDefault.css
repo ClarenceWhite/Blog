@@ -1,0 +1,69 @@
+.compose-default {
+    font-family: sans-serif;
+    display: flex;
+    align-items:stretch;
+    justify-content:baseline;
+    flex-direction:row;
+    /* gap: 20px; */
+    width: 100%;
+    height: calc(100vh - 70px);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.md-container {
+    margin-top: 7px;
+    width: 85%;
+    height: calc(100% - 7px) !important;
+}
+
+.default-sidebar {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("../images/sidebar_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: large;
+}
+
+.edit-options {
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-self: center;
+    gap: 15px;
+}
+
+.input-title {
+    display: flex;
+    flex-direction:column;
+    align-self: center;
+
+}
+
+.input-title > input {
+    width: 100%;
+    height: 40px;
+}
+
+.category-dropdown {
+    display: flex;
+    flex-direction:column;
+    align-self:center;
+    width: 100%;
+}
+
+.category-dropdown > select {
+    height: 40px;
+}

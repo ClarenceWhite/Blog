@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+
+.article {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.article-title {
+    align-self: center;
+    margin-bottom: 2%;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 64px;
+    color:royalblue;
+}
+
+.article-divider {
+    color:cadetblue;
+}
+
+.article-content {
+    margin-top: 2.5%;
+}
